@@ -1,0 +1,103 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.about-us-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+    .about-us-container h2 {
+        text-align: center;
+        color: #4A007A;
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+    }
+
+    .about-us-container h3 {
+        color: #4A007A;
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+        border-bottom: 2px solid #4A007A;
+        padding-bottom: 10px;
+    }
+
+    .about-us-container h4 {
+        color: #333;
+        font-size: 1.5rem;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .about-us-container p {
+        font-size: 1.1rem;
+        color: #555;
+        margin-bottom: 20px;
+        line-height: 1.8;
+    }
+
+    .about-us-container ul {
+        margin-left: 20px;
+        padding-left: 20px;
+        list-style-type: disc;
+    }
+
+        .about-us-container ul li {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+    .about-us-container a {
+        color: #007BFF;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        .about-us-container a:hover {
+            text-decoration: underline;
+        }
+
+.contact-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #4A007A;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+    .contact-button:hover {
+        background-color: #350055;
+    }
+
+.quote-box {
+    background-color: #f9f9f9;
+    border-left: 5px solid #4A007A;
+    padding: 15px 20px;
+    margin: 20px 0;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #777;
+}
